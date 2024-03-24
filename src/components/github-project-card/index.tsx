@@ -1,5 +1,4 @@
 import { Fragment } from 'react';
-import { AiOutlineStar } from 'react-icons/ai';
 import { MdInsertLink } from 'react-icons/md';
 import { ga, getLanguageColor, skeleton } from '../../utils';
 import { GithubProject } from '../../interfaces/github-project';
@@ -112,17 +111,11 @@ const GithubProjectCard = ({
               {item.topics.map((topic, index) => (
                 <span
                   key={index}
-                  className="mr-1 bg-base-200 text-base-content rounded-md px-1.5 py-0.5"
+                  className="mr-1 bg-base-200 text-base-content rounded-md opacity-60 px-1.5 py-0.5"
                 >
                   {topic}
                 </span>
               ))}
-            </div>
-            <div className="flex flex-grow">
-              <span className="mr-3 flex items-center">
-                <AiOutlineStar className="mr-0.5" />
-                <span>{item.stargazers_count}</span>
-              </span>
             </div>
             <div>
               <span className="flex items-center">
