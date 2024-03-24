@@ -121,6 +121,7 @@ const BlogCard = ({
                   <LazyImage
                     src={article.thumbnail}
                     alt={'thumbnail'}
+                    className="w-full h-full object-fit"
                     placeholder={skeleton({
                       widthCls: 'w-full',
                       heightCls: 'h-full',
