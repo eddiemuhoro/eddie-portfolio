@@ -9,17 +9,11 @@ import { CgDribbble } from 'react-icons/cg';
 import { RiPhoneFill, RiMailFill } from 'react-icons/ri';
 import { Fragment } from 'react';
 import {
-  FaBehanceSquare,
   FaBuilding,
   FaDev,
   FaFacebook,
-  FaGlobe,
-  FaSkype,
-  FaMastodon,
   FaStackOverflow,
-  FaTelegram,
   FaLinkedin,
-  FaYoutube,
 } from 'react-icons/fa';
 import { skeleton } from '../../utils';
 import { Profile } from '../../interfaces/profile';
@@ -43,18 +37,6 @@ const companyLink = (company: string): string => {
   return `https://github.com/${company.substring(1)}`;
 };
 
-const getFormattedMastodonValue = (
-  mastodonValue: string,
-  isLink: boolean,
-): string => {
-  const [username, server] = mastodonValue.split('@');
-
-  if (isLink) {
-    return `https://${server}/@${username}`;
-  } else {
-    return `${username}@${server}`;
-  }
-};
 
 const ListItem: React.FC<{
   icon: React.ReactNode;
@@ -163,14 +145,6 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://twitter.com/${social.twitter}`}
                 />
               )}
-              {social?.mastodon && (
-                <ListItem
-                  icon={<FaMastodon />}
-                  title="Mastodon:"
-                  value={getFormattedMastodonValue(social.mastodon, false)}
-                  link={getFormattedMastodonValue(social.mastodon, true)}
-                />
-              )}
               {social?.linkedin && (
                 <ListItem
                   icon={<FaLinkedin />}
@@ -187,14 +161,6 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://dribbble.com/${social.dribbble}`}
                 />
               )}
-              {social?.behance && (
-                <ListItem
-                  icon={<FaBehanceSquare />}
-                  title="Behance:"
-                  value={social.behance}
-                  link={`https://www.behance.net/${social.behance}`}
-                />
-              )}
               {social?.facebook && (
                 <ListItem
                   icon={<FaFacebook />}
@@ -209,14 +175,6 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="Instagram:"
                   value={social.instagram}
                   link={`https://www.instagram.com/${social.instagram}`}
-                />
-              )}
-              {social?.youtube && (
-                <ListItem
-                  icon={<FaYoutube />}
-                  title="YouTube:"
-                  value={`@${social.youtube}`}
-                  link={`https://www.youtube.com/@${social.youtube}`}
                 />
               )}
               {social?.medium && (
@@ -241,36 +199,6 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="Stack Overflow:"
                   value={social.stackoverflow.split('/').slice(-1)}
                   link={`https://stackoverflow.com/users/${social.stackoverflow}`}
-                />
-              )}
-              {social?.website && (
-                <ListItem
-                  icon={<FaGlobe />}
-                  title="Website:"
-                  value={social.website
-                    .replace('https://', '')
-                    .replace('http://', '')}
-                  link={
-                    !social.website.startsWith('http')
-                      ? `http://${social.website}`
-                      : social.website
-                  }
-                />
-              )}
-              {social?.skype && (
-                <ListItem
-                  icon={<FaSkype />}
-                  title="Skype"
-                  value={social.skype}
-                  link={`skype:${social.skype}?chat`}
-                />
-              )}
-              {social?.telegram && (
-                <ListItem
-                  icon={<FaTelegram />}
-                  title="Telegram"
-                  value={social.telegram}
-                  link={`https://t.me/${social.telegram}`}
                 />
               )}
               {social?.phone && (

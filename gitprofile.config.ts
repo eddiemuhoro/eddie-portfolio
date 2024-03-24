@@ -65,7 +65,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    twitter: 'CodesEddie',
     mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
@@ -73,14 +73,14 @@ const CONFIG = {
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'eddiemuhoro',
+    dev: 'eddiemuhoro',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    phone: '+254 705982249',
+    email: 'eddiemuhoro@gmail.com',
   },
   resume: {
     fileUrl:
