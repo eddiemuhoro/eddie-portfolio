@@ -38,24 +38,24 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      // projects: [
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      // ],
     },
   },
   seo: {
@@ -64,7 +64,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'edward-muhoro-438761231',
     twitter: 'CodesEddie',
     mastodon: 'arifszn@mastodon.social',
     researchGate: '',
@@ -102,61 +102,61 @@ const CONFIG = {
   experiences: [
     {
       company: 'Anmart Developers',
-      position: 'Frontend Developer',
+      position: 'Web Developer',
       from: 'January 2023',
       to: 'Present',
       companyLink: 'https://anmart.co.ke/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Agrogis',
+      position: 'Web & Ionic developer',
+      from: 'May 2023',
+      to: 'December 2024',
+      companyLink: 'https://agrogis.ro/',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Dedan Kimathi University of Technology',
+      degree: 'Bsc Computer Science',
+      from: '2021',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Utumishi Academy',
+      degree: 'Computer Studies, Physics, Mathematics',
+      from: '2017',
+      to: '2020',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  // publications: [
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: '',
+  //     journalName: 'Journal Name',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: 'Conference Name',
+  //     journalName: '',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  // ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
@@ -172,7 +172,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
