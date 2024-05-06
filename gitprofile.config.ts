@@ -93,6 +93,7 @@ const CONFIG = {
     'Node.js',
     'Next',
     'MySQL',
+    'ASP.NET',
     'PostgreSQL',
     'Mongodb',
     'Git',
