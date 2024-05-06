@@ -64,7 +64,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'edward-muhoro-438761231',
+    linkedin: 'muhoroedwin',
     twitter: 'CodesEddie',
     mastodon: 'arifszn@mastodon.social',
     researchGate: '',
@@ -236,7 +236,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made by <a 
-      class="text-primary" href="https://www.linkedin.com/in/edwin-muhoro-438761231/"
+      class="text-primary" href="https://www.linkedin.com/in/muhoroedwin/"
       target="_blank"
       rel="noreferrer"
     >Edwin Muhoro</a>`,
