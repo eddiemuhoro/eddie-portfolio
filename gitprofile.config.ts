@@ -112,7 +112,7 @@ const CONFIG = {
       company: 'Agrogis',
       position: 'Web & Ionic developer',
       from: 'May 2023',
-      to: 'December 2024',
+      to: 'December 2023',
       companyLink: 'https://agrogis.ro/',
     },
   ],
