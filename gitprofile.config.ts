@@ -59,7 +59,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Edwin Muhoro',
     description: '',
     imageURL: '',
   },
@@ -78,7 +78,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://eddiemuhoro.vercel.app/',
     phone: '+254 705982249',
     email: 'eddiemuhoro@gmail.com',
   },
