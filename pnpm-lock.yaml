@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^10.4.18
     version: 10.4.19(postcss@8.4.38)
   axios:
-    specifier: ^1.6.7
-    version: 1.6.8
+    specifier: ^1.7.1
+    version: 1.7.1
   daisyui:
     specifier: ^4.7.3
     version: 4.7.3(postcss@8.4.38)
@@ -127,7 +127,7 @@ packages:
   /@arifszn/blog-js@2.0.6:
     resolution: {integrity: sha512-nyNFmbbScWlj/jfqR5ZQ2kC6Al3PuuVSPghmN2zUQEL02OoWD17/pUqEZaSO1GWk5RFgLaAfC2JeUhXNv7J/7A==}
     dependencies:
-      axios: 1.6.8
+      axios: 1.7.1
       string-strip-html: 8.5.0
     transitivePeerDependencies:
       - debug
@@ -2232,8 +2232,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: true
 
-  /axios@1.6.8:
-    resolution: {integrity: sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==}
+  /axios@1.7.1:
+    resolution: {integrity: sha512-+LV37nQcd1EpFalkXksWNBiA17NZ5m5/WspmHGmZmdx1qBOg/VNq/c4eRJiA9VQQHBOs+N0ZhhdU10h2TyNK7Q==}
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -5246,6 +5246,7 @@ packages:
 
   /workbox-google-analytics@7.0.0:
     resolution: {integrity: sha512-MEYM1JTn/qiC3DbpvP2BVhyIH+dV/5BjHk756u9VbwuAhu0QHyKscTnisQuz21lfRpOwiS9z4XdqeVAKol0bzg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 7.0.0
       workbox-core: 7.0.0
