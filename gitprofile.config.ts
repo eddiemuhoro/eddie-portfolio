@@ -84,7 +84,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1CTiJ2N09J_D9gIoAlt566U1pjcoaYcy-/edit?usp=sharing&ouid=104645687254060085016&rtpof=true&sd=true', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -173,7 +173,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'Night',
+    defaultTheme: 'Business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
