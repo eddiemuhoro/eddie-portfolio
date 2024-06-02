@@ -27,7 +27,7 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: [
           'eddiemuhoro/expressjs',
-          'eddiemuhoro/interview-questions',
+          'eddiemuhoro/kimathi-project',
           'eddiemuhoro/kamzac',
           'eddiemuhoro/prisma',
           'eddiemuhoro/react-stripe-payment',
