@@ -29,7 +29,7 @@ const CONFIG = {
           'eddiemuhoro/expressjs',
           'eddiemuhoro/kimathi-project',
           'eddiemuhoro/kamzac',
-          'eddiemuhoro/prisma',
+          'eddiemuhoro/Ecommerce_API',
           'eddiemuhoro/react-stripe-payment',
           'eddiemuhoro/react-expo-app',
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
