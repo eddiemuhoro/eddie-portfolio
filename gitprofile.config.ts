@@ -166,7 +166,7 @@ const CONFIG = {
   },
   googleAnalytics: {
     //from env
-    id: import.meta.env.VITE_APP_GA_MEASUREMENT_ID,
+    id: '',
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
