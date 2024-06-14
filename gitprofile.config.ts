@@ -165,7 +165,8 @@ const CONFIG = {
     limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    //from env
+    id: import.meta.env.VITE_APP_GA_MEASUREMENT_ID,
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
