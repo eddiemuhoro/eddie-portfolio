@@ -30,6 +30,7 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import Stats from './wakatime/Stats';
 
 /**
  * Renders the GitProfile component.
@@ -282,6 +283,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                         blog={sanitizedConfig.blog}
                       />
                     )}
+                    <Stats />
                   </div>
                 </div>
               </div>
